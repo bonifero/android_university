@@ -55,7 +55,7 @@ fun BusinessCardApp(modifier: Modifier = Modifier) {
                         .background(Color(0xFF073042))
                 )
                 Text(
-                    text = "Разиль",
+                    text = "Nikita",
                     fontSize = 40.sp,
                     color = Color(0xFF073042)
                 )
