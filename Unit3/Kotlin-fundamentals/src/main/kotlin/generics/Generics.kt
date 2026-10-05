@@ -64,8 +64,6 @@ class Quiz : ProgressPrintable {
     }
 }
 
-// Промежуточные шаги codelab (до перехода на интерфейс): extension-свойство и extension-функция.
-// Названия отличаются от членов интерфейса, чтобы оба варианта могли существовать в одном файле.
 val Quiz.StudentProgress.progressTextExt: String
     get() = "${answered} of ${total} answered"
 
