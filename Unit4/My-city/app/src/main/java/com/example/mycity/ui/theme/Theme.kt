@@ -102,9 +102,9 @@ fun MyCityTheme(
  */
 fun Category.gradient(): Brush = Brush.linearGradient(
     when (this) {
-        Category.Sights -> listOf(Color(0xFF0E7C66), Color(0xFF2BB38A))
+        Category.Sights -> listOf(Color(0xFF5B3E96), Color(0xFFB69DF2))
         Category.Museums -> listOf(Color(0xFF3949AB), Color(0xFF7986CB))
-        Category.Parks -> listOf(Color(0xFF2E7D32), Color(0xFF8BC34A))
+        Category.Bridges -> listOf(Color(0xFF37474F), Color(0xFFFFC107))
         Category.Food -> listOf(Color(0xFFD84315), Color(0xFFFFA000))
         Category.Theaters -> listOf(Color(0xFFAD1457), Color(0xFFEF5350))
     }

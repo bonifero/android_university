@@ -2,8 +2,8 @@ package com.example.mycity.model
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Commute
 import androidx.compose.material.icons.filled.Museum
-import androidx.compose.material.icons.filled.Park
 import androidx.compose.material.icons.filled.RestaurantMenu
 import androidx.compose.material.icons.filled.TheaterComedy
 import androidx.compose.material.icons.filled.Tour
@@ -31,11 +31,11 @@ enum class Category(
         description = R.string.category_museums_description,
         icon = Icons.Filled.Museum,
     ),
-    Parks(
-        title = R.string.category_parks,
-        shortTitle = R.string.category_parks_short,
-        description = R.string.category_parks_description,
-        icon = Icons.Filled.Park,
+    Bridges(
+        title = R.string.category_bridges,
+        shortTitle = R.string.category_bridges_short,
+        description = R.string.category_bridges_description,
+        icon = Icons.Filled.Commute,
     ),
     Food(
         title = R.string.category_food,
